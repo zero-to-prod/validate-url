@@ -2,7 +2,6 @@
 
 namespace Tests\Unit;
 
-use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 use Zerotoprod\ValidateUrl\ValidateUrl;
 
