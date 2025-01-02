@@ -8,6 +8,7 @@
 [![php](https://img.shields.io/packagist/php-v/zero-to-prod/validate-url.svg?color=purple)](https://packagist.org/packages/zero-to-prod/validate-url/stats)
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/validate-url?color=f28d1a)](https://packagist.org/packages/zero-to-prod/validate-url)
 [![License](https://img.shields.io/packagist/l/zero-to-prod/validate-url?color=pink)](https://github.com/zero-to-prod/validate-url/blob/main/LICENSE.md)
+[![wakatime](https://wakatime.com/badge/github/zero-to-prod/validate-url.svg)](https://wakatime.com/badge/github/zero-to-prod/validate-url)
 
 Validates a URL.
 
