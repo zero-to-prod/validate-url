@@ -4,6 +4,7 @@
 
 [![Repo](https://img.shields.io/badge/github-gray?logo=github)](https://github.com/zero-to-prod/validate-url)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/validate-url/test.yml?label=test)](https://github.com/zero-to-prod/validate-url/actions)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/validate-url/backwards_compatibility.yml?label=backwards_compatibility)](https://github.com/zero-to-prod/validate-url/actions)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/zero-to-prod/validate-url?color=blue)](https://packagist.org/packages/zero-to-prod/validate-url/stats)
 [![php](https://img.shields.io/packagist/php-v/zero-to-prod/validate-url.svg?color=purple)](https://packagist.org/packages/zero-to-prod/validate-url/stats)
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/validate-url?color=f28d1a)](https://packagist.org/packages/zero-to-prod/validate-url)
