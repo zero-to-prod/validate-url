@@ -2,12 +2,19 @@
 
 namespace Zerotoprod\ValidateUrl;
 
+/**
+ * Validates a url
+ *
+ * @link https://github.com/zero-to-prod/validate-url
+ */
 class ValidateUrl
 {
     /**
      * This pattern is derived from Symfony\Component\Validator\Constraints\UrlValidator (7.1).
      *
      *  Bernhard Schussek <bschussek@gmail.com>
+     *
+     * @link https://github.com/zero-to-prod/validate-url
      */
     public const regex = '~^
             (PROTOCOLS)://                                 # protocol
@@ -40,6 +47,7 @@ class ValidateUrl
      * @param  array  $protocols
      *
      * @return bool
+     * @link https://github.com/zero-to-prod/validate-url
      */
     public static function isUrl($value, array $protocols = []): bool
     {
