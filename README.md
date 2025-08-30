@@ -17,6 +17,30 @@
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Documentation Publishing](#documentation-publishing)
+    - [Automatic Documentation Publishing](#automatic-documentation-publishing)
+- [Usage](#usage)
+- [Local Development](./LOCAL_DEVELOPMENT.md)
+- [Contributing](#contributing)
+
+## Introduction
+
+Validates a URL.
+
+## Requirements
+
+- PHP 7.1 or higher.
+
+## Installation
+
+Install `Zerotoprod\ValidateUrl` via [Composer](https://getcomposer.org/):
+
+```bash
+composer require zero-to-prod/validate-url
+```
+
+This will add the package to your project’s dependencies and create an autoloader entry for it.
+
 ## Documentation Publishing
 
 You can publish this README to your local documentation directory.
@@ -49,27 +73,6 @@ You can automatically publish documentation by adding the following to your `com
   }
 }
 ```
-- [Usage](#usage)
-- [Local Development](./LOCAL_DEVELOPMENT.md)
-- [Contributing](#contributing)
-
-## Introduction
-
-Validates a URL.
-
-## Requirements
-
-- PHP 7.1 or higher.
-
-## Installation
-
-Install `Zerotoprod\ValidateUrl` via [Composer](https://getcomposer.org/):
-
-```bash
-composer require zero-to-prod/validate-url
-```
-
-This will add the package to your project’s dependencies and create an autoloader entry for it.
 
 ## Usage
 
