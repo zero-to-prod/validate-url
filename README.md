@@ -17,6 +17,38 @@
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
+## Documentation Publishing
+
+You can publish this README to your local documentation directory.
+
+This can be useful for providing documentation for AI agents.
+
+This can be done using the included script:
+
+```bash
+# Publish to default location (./docs/zero-to-prod/validate-url)
+vendor/bin/zero-to-prod-validate-url
+
+# Publish to custom directory
+vendor/bin/zero-to-prod-validate-url /path/to/your/docs
+```
+
+#### Automatic Documentation Publishing
+
+You can automatically publish documentation by adding the following to your `composer.json`:
+
+```json
+{
+  "scripts": {
+    "post-install-cmd": [
+      "zero-to-prod-validate-url"
+    ],
+    "post-update-cmd": [
+      "zero-to-prod-validate-url"
+    ]
+  }
+}
+```
 - [Usage](#usage)
 - [Local Development](./LOCAL_DEVELOPMENT.md)
 - [Contributing](#contributing)

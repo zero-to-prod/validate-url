@@ -52,5 +52,8 @@
     "zero-to-prod/transformable": "Transform a class into different types.",
     "zero-to-prod/data-model-factory": "Factories for a DataModel.",
     "zero-to-prod/data-model": "Type-safe DTOs"
-  }
+  },
+  "bin": [
+    "bin/zero-to-prod-validate-url"
+  ]
 }
